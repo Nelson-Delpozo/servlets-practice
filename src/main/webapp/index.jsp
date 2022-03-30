@@ -1,11 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<head>
-    <title>Home</title>
-</head>
+<%@ include file="head.jsp" %>
 <body>
-<form name="loginform" action="login.jsp" method="POST">
+<%@ include file="navbar.jsp" %>
+
+<form name="login-form" action="login.jsp" method="POST">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -15,6 +15,7 @@
 </form>
 
 
-
+<%@ include file="footer.jsp" %>
+<%@ include file="mdnscripts.jsp" %>
 </body>
 </html>
