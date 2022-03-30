@@ -2,10 +2,10 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <title>Home</title>
 </head>
 <body>
-<form name="loginform" action="login.jsp" method="post">
+<form name="loginform" action="login.jsp" method="GET">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
