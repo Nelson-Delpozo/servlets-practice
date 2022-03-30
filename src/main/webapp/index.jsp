@@ -6,7 +6,6 @@
 <%@ include file="navbar.jsp" %>
 <br><br>
 <%@ include file="login_form.jsp" %>
-
 <%@ include file="footer.jsp" %>
 <%@ include file="mdnscripts.jsp" %>
 </body>
