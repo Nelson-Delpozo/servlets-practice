@@ -5,7 +5,7 @@
     <title>Home</title>
 </head>
 <body>
-<form name="loginform" action="login.jsp" method="GET">
+<form name="loginform" action="login.jsp" method="POST">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
