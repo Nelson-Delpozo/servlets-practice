@@ -1,22 +1,12 @@
-<!-- Section: Design Block -->
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<%@ include file="head.jsp" %>
+<body>
+<%@ include file="navbar.jsp" %>
+<br><br>
+<%--<%@ include file="login_form.jsp" %>--%>
 <section class=" text-center text-lg-start">
-    <style>
-        .rounded-t-5 {
-            border-top-left-radius: 0.5rem;
-            border-top-right-radius: 0.5rem;
-        }
-
-        @media (min-width: 992px) {
-            .rounded-tr-lg-0 {
-                border-top-right-radius: 0;
-            }
-
-            .rounded-bl-lg-5 {
-                border-bottom-left-radius: 0.5rem;
-            }
-        }
-    </style>
-
     <div class="card mb-3">
         <div class="row g-0 d-flex align-items-center">
             <div class="col-lg-4 d-none d-lg-flex">
@@ -69,3 +59,8 @@
         </div>
     </div>
 </section>
+
+<%@ include file="footer.jsp" %>
+<%@ include file="mdnscripts.jsp" %>
+</body>
+</html>
