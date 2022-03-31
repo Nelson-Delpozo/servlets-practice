@@ -6,7 +6,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     &copy;2022 Copyright:
-    <a class="text-white" href="https://github.com/Nelson-Delpozo">Nelson Delpozo Sirius Cohort</a>
+    <a class="text-white" href="https://github.com/Nelson-Delpozo" target="_blank">Nelson Delpozo Sirius Cohort</a>
   </div>
   <!-- Copyright -->
 </footer>
