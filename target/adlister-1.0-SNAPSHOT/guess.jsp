@@ -2,21 +2,21 @@
   Created by IntelliJ IDEA.
   User: nelsondelpozo
   Date: 4/1/22
-  Time: 9:30 AM
+  Time: 11:09 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Pick Color</title>
+    <title>Guess</title>
 </head>
 <body>
-<h1>What's your favorite color?</h1>
-<form action="PickColorServlet" method="post">
-  <input type="text" id="bg_color" name="bg_color"><br>
-  <input type="submit">
+<h2>Pick a number between 1-3: </h2>
+<form action="GuessNumberServlet" method="post">
+    <input type="text" id="guess" name="guess"><br>
+    <input type="submit">
 </form>
-
-
+<br>
+<h3>Your result is: ${result}</h3>
 </body>
 </html>
