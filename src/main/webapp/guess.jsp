@@ -13,7 +13,8 @@
 <body>
 <h2>Pick a number between 1-3: </h2>
 <form action="GuessNumberServlet" method="post">
-    <input type="text" id="guess" name="guess"><br>
+    <input type="text" id="guess" name="guess">
+    <br><br>
     <input type="submit">
 </form>
 <br>
