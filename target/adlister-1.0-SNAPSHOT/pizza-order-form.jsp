@@ -56,13 +56,14 @@
   <br><br>
   <input type="submit" value="Submit">
 </form>
-
+<br>
 <h2>Your order is:</h2>
 <h5>Crust: ${crust}</h5>
 <h5>Sauce: ${sauce}</h5>
 <h5>Size: ${size}</h5>
 <h5>Toppings: ${toppings}</h5>
 <h5>Delivered to: ${address}</h5>
+<br><br>
 
 </body>
 </html>
