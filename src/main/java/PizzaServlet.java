@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class PizzaServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.getRequestDispatcher("/pizza-order-form.jsp").forward(request, response);
     }
 
     @Override
