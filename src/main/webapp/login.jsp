@@ -1,15 +1,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%
-    if (request.getMethod().equalsIgnoreCase("post")) {
-        String username = request.getParameter("uname");
-        String password = request.getParameter("psw");
-        if (username.equals("admin") && password.equals("password")) {
-            response.sendRedirect("/profile.jsp");
-        }
-    }
-%>
+<%--<%--%>
+<%--    if (request.getMethod().equalsIgnoreCase("post")) {--%>
+<%--        String username = request.getParameter("uname");--%>
+<%--        String password = request.getParameter("psw");--%>
+<%--        if (username.equals("admin") && password.equals("password")) {--%>
+<%--            response.sendRedirect("/profile.jsp");--%>
+<%--        }--%>
+<%--    }--%>
+<%--%>--%>
 
 <html>
 <%@ include file="head.jsp" %>
@@ -30,7 +30,7 @@
             <div class="col-lg-8">
                 <div class="card-body py-5 px-md-5">
 
-                    <form name="login-form" action="login.jsp" method="post">
+                    <form name="login-form" action="../java/TestServlet.java" method="post">
                         <h2>Welcome!</h2>
                         <h3>please log in below</h3>
                         <br>

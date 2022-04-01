@@ -15,20 +15,30 @@ import java.io.IOException;
 
 @WebServlet(name = "TestServlet", urlPatterns = "/")
 public class TestServlet extends HttpServlet {
-    int count = 0;
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
-        String name = request.getParameter("name");
-        if(name == null){
-            response.getWriter().printf("<h1>Hello from TestServlet");
-            response.getWriter().printf("<h2>page counter:  %s</h2>%n", count);
-        }else {
-            response.getWriter().printf("<h1>Hello, %s</h1>%n", name);
-            response.getWriter().printf("<h2>page visit counter:  %s</h2>%n", count);
-
+//    int count = 0;
+//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+//
+//        String name = request.getParameter("name");
+//        if(name == null){
+//            response.getWriter().printf("<h1>Hello from TestServlet");
+//            response.getWriter().printf("<h2>page counter:  %s</h2>%n", count);
+//        }else {
+//            response.getWriter().printf("<h1>Hello, %s</h1>%n", name);
+//            response.getWriter().printf("<h2>page visit counter:  %s</h2>%n", count);
+//
+//        }
+//        count += 1;
+//    }
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String name = request.getParameter("uname");
+        String password = request.getParameter("psw");
+        if (name.equals("admin") && password.equals("password")) {
+            response.sendRedirect("/profile.jsp");
+//            response.getWriter().println("hello");
         }
-        count += 1;
     }
+
+
 }
 
 
