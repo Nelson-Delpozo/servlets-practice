@@ -30,7 +30,7 @@
             <div class="col-lg-8">
                 <div class="card-body py-5 px-md-5">
 
-                    <form name="login-form" action="../java/TestServlet.java" method="post">
+                    <form name="login-form" action="TestServlet" method="post">
                         <h2>Welcome!</h2>
                         <h3>please log in below</h3>
                         <br>
