@@ -11,6 +11,13 @@
     <title>Cindy</title>
 </head>
 <body>
-Hello Cindy!
+<form action="CindyServlet" method="post">
+    <h3>how is Cindy feeling today?:</h3>
+    <select name="feelings">
+        <option value="great">Feelin' Great</option>
+        <option value="pretty">Feelin' Pretty</option>
+        <option value="meh">Feelin' kinda meh</option>
+    </select>
+</form>
 </body>
 </html>
