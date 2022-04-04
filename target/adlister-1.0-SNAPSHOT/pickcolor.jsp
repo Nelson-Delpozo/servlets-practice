@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>What's your favorite color?</h1>
-<form action="PickColorServlet" method="post">
+<form method="post">
   <input type="text" id="bg_color" name="bg_color"><br>
   <input type="submit">
 </form>

@@ -20,7 +20,7 @@ public class ListQuotesDao implements Quotes {
         ));
         quotes.add(new Quote(
                 "Come and get your love",
-                "Redbone",
+                "Red-bone",
                 2
         ));
         quotes.add(new Quote(

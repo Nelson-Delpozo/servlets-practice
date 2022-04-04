@@ -14,9 +14,6 @@
 <body>
 hello from ad-lister show quotes page
 <br>
-<form method="post">
-    <input type="submit" value="See All Quotes">
-</form>
 
 <h1>Here are all the quotes:</h1>
 
