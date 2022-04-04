@@ -6,29 +6,36 @@ public class Quote {
     private String content;
     private String author;
 
-    public Quote(){};
+    public Quote() {
+    }
 
-    public long getId () {
+    public long getId() {
         return id;
     }
 
-    public void setId ( long id){
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getContent () {
+    public String getContent() {
         return content;
     }
 
-    public void setContent (String content){
+    public void setContent(String content) {
         this.content = content;
     }
 
-    public String getAuthor () {
+    public String getAuthor() {
         return author;
     }
 
-    public void setAuthor (String author){
+    public void setAuthor(String author) {
         this.author = author;
+    }
+
+    @Override
+    public String toString() {
+        return ("Author: " + this.getAuthor() +
+                " Quote: " + this.getContent());
     }
 }

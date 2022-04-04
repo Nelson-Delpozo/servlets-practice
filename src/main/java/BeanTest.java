@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 
 public class BeanTest {
@@ -19,6 +20,10 @@ public class BeanTest {
         newQuote.setAuthor("Ernest Hemingway");
         newQuote.setContent("Ask not for whom the bell tolls, it tolls for thee.");
 
+        Quote newQuote2 =  new Quote();
+        newQuote2.setAuthor("W.C Fields");
+        newQuote2.setContent("He's not gonna tell me I don't love him");
+
         System.out.println(newQuote.getAuthor());
         System.out.println(newQuote.getContent());
 
@@ -29,7 +34,13 @@ public class BeanTest {
 
         System.out.println("The new author is: " + newAuthor.getFirstName() + " " + newAuthor.getLastName());
 
+        ArrayList<Quote> quotesList = new ArrayList<>();
+        quotesList.add(newQuote);
+        quotesList.add(newQuote2);
 
+        for (Object quote : quotesList) {
+            System.out.println("quote = " + quote.toString());
+        }
 
 
 
