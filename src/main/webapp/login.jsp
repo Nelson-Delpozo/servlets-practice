@@ -49,7 +49,7 @@
 
                             <div class="col">
                                 <!-- Simple link -->
-                                <a href="index.jsp">Forgot password?</a>
+                                <a href="ads/index.jsp">Forgot password?</a>
                             </div>
                         </div>
                         <!-- Submit button -->
