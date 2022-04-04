@@ -9,6 +9,12 @@ public class Quote {
     public Quote() {
     }
 
+    public Quote(String content, String author, long id){
+        this.content = content;
+        this.author = author;
+        this.id = id;
+    }
+
     public long getId() {
         return id;
     }
