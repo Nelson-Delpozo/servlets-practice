@@ -1,9 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<%@ include file="head.jsp" %>
+<%@ include file="../head.jsp" %>
 <body>
-<%@ include file="navbar.jsp" %>
+<%@ include file="../navbar.jsp" %>
 
 login successful. welcome to profile.jsp
 
@@ -18,8 +18,8 @@ login successful. welcome to profile.jsp
 <p>Path: <%= request.getRequestURL() %></p>
 <p>User-Agent header: <%= request.getHeader("user-agent") %></p>
 <br>
-<%@ include file="footer.jsp" %>
-<%@ include file="mdnscripts.jsp" %>
+<%@ include file="../footer.jsp" %>
+<%@ include file="../mdnscripts.jsp" %>
 </body>
 </html>
 
