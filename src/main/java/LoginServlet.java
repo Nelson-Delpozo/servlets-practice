@@ -21,6 +21,8 @@ public class LoginServlet extends HttpServlet {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+
+
         if (username.equals("admin") && password.equals("password")) {
             request.getSession().setAttribute("user", username);
             request.getSession().setAttribute("isLoggedIn", true);
@@ -28,6 +30,6 @@ public class LoginServlet extends HttpServlet {
         }else{
             response.sendRedirect("/login");
         }
-//        request.getRequestDispatcher("LoginServlet").forward(request, response);
+
     }
 }
