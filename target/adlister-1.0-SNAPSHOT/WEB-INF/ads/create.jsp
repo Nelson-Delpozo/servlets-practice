@@ -6,6 +6,7 @@
   </jsp:include>
 </head>
 <body>
+<%@ include file="/navbar.jsp" %>
 <div class="container">
   <h1>Create a new Ad</h1>
   <form action="/ads/create" method="post">
@@ -20,5 +21,8 @@
     <input type="submit" class="btn btn-block btn-primary">
   </form>
 </div>
+
+<%@ include file="/footer.jsp" %>
+<%@ include file="/mdnscripts.jsp" %>
 </body>
 </html>
