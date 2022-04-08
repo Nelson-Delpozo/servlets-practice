@@ -1,20 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: nelsondelpozo
-  Date: 4/4/22
-  Time: 1:27 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-  <title>Ad-Lister</title>
-</head>
-<body>
-hello from ad-lister show ads page
-<br>
 
+<html>
+<%@ include file="/head.jsp" %>
+
+<body>
+<%@ include file="/navbar.jsp" %>
+<br><br>
 
 <h1>Here are all the ads:</h1>
 
@@ -24,5 +16,8 @@ hello from ad-lister show ads page
     <p>Desc: ${ad.description}</p>
   </div>
 </c:forEach>
+
+<%@ include file="/footer.jsp" %>
+<%@ include file="/mdnscripts.jsp" %>
 </body>
 </html>
