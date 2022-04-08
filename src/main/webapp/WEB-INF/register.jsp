@@ -2,9 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<%@ include file="head.jsp" %>
+<%@ include file="/head.jsp" %>
 <body>
-<%@ include file="navbar.jsp" %>
+<%@ include file="/navbar.jsp" %>
 <br><br>
 <%--<%@ include file="login_form.jsp" %>--%>
 <section class=" text-center text-lg-start">
@@ -22,13 +22,17 @@
 
                     <form method="post">
                         <h2>Welcome!</h2>
-                        <h3>please log in below</h3>
+                        <h3>please create account below</h3>
                         <br>
                         <div class="form-outline mb-4">
-                            <input type="text" placeholder="Enter Username" name="username" required class="form-control"/>
+                            <input type="text" placeholder="Create Username" name="username" required class="form-control"/>
                         </div>
                         <div class="form-outline mb-4">
-                            <input type="password" placeholder="Enter Password" name="password" required
+                            <input type="password" placeholder="Create Password" name="password" required
+                                   class="form-control"/>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input type="email" placeholder="Enter Email" name="email" required
                                    class="form-control"/>
                         </div>
                         <!-- 2 column grid layout for inline styling -->
@@ -49,7 +53,7 @@
 
                             <div class="col">
                                 <!-- Simple link -->
-                                <a href="/register">Create Account</a>
+                                <a href="ads/index.jsp">Forgot password?</a>
                             </div>
                         </div>
                         <!-- Submit button -->
@@ -61,7 +65,9 @@
     </div>
 </section>
 
-<%@ include file="footer.jsp" %>
-<%@ include file="mdnscripts.jsp" %>
+<%@ include file="/footer.jsp" %>
+<%@ include file="/mdnscripts.jsp" %>
 </body>
 </html>
+
+
