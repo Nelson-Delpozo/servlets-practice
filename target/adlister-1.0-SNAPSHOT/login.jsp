@@ -12,15 +12,15 @@
         <div class="row g-0 d-flex align-items-center">
             <div class="col-lg-4 d-none d-lg-flex">
                 <img
-                        src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg"
-                        alt="Trendy Pants and Shoes"
+                        src="https://absolutebeer.com/wp-content/uploads/2019/12/AB-Breweries-Independence-Brewing-Co-Beers-Native-Texan-Thumb.jpg"
+                        alt="Texas Beers"
                         class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5"
                 />
             </div>
             <div class="col-lg-8">
                 <div class="card-body py-5 px-md-5">
 
-                    <form method="post">
+                    <form action="/login" method="post">
                         <h2>Welcome!</h2>
                         <h3>please log in below</h3>
                         <br>
@@ -35,16 +35,16 @@
                         <div class="row mb-4">
                             <div class="col d-flex justify-content-center">
                                 <!-- Checkbox -->
-                                <div class="form-check">
-                                    <input
-                                            class="form-check-input"
-                                            type="checkbox"
-                                            value=""
-                                            id="form2Example31"
-                                            checked
-                                    />
-                                    <label class="form-check-label" for="form2Example31"> Remember me </label>
-                                </div>
+<%--                                <div class="form-check">--%>
+<%--                                    <input--%>
+<%--                                            class="form-check-input"--%>
+<%--                                            type="checkbox"--%>
+<%--                                            value=""--%>
+<%--                                            id="form2Example31"--%>
+<%--                                            checked--%>
+<%--                                    />--%>
+<%--                                    <label class="form-check-label" for="form2Example31"> Remember me </label>--%>
+<%--                                </div>--%>
                             </div>
 
                             <div class="col">
